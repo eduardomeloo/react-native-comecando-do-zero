@@ -29,7 +29,8 @@ const estilos = StyleSheet.create({
     topo: {
         width: "100%",
         //Altura_img / Largura_img * Largura_scree_cell
-        height: 578 / 768 * width
+        height: 578 / 768 * width,
+        fontFamily: "Montserrat"
     },
     titulo: {
         width: "100%",
@@ -49,7 +50,7 @@ const estilos = StyleSheet.create({
         color: "#464646",
         fontSize: 26,
         lineHeight: 42,
-        fontWeight: "bold"
+        fontFamily: "MontserratBold"
     },
     fazenda: {
         flexDirection: "row",
@@ -62,7 +63,8 @@ const estilos = StyleSheet.create({
     nomeFazenda: {
         fontSize: 16,
         lineHeight: 26,
-        marginLeft: 12
+        marginLeft: 12,
+        fontFamily: "MontserratRegular"
     },
     descricao: {
         color: "#A3A3A3",
